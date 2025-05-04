@@ -10,12 +10,14 @@ html {
 
 body{
     font-family: "ROBOTO", sans-serif;
+    overflow-x: hidden;
 }
 .container{
     max-width: 1200px;
     margin-inline: auto;
 }
 #hero{
+  width: 100vw ;
     height: 100vh;
     background:url('https://templatemo.com/templates/templatemo_525_the_town/img/the-town-bg-01.jpg') center/cover no-repeat;
     background-attachment:fixed;
@@ -148,6 +150,7 @@ i{
 
 /* contact section  */
 .contact{
+  width: 100vw;
     height: 100%;
     background: url('https://templatemo.com/templates/templatemo_525_the_town/img/the-town-bg-02.jpg') center/ cover no-repeat;
     padding: 160px 0px 160px;
@@ -247,6 +250,7 @@ img {
   }
   /* ka shaqeynta qeynta introductionka */
   .intro {
+    width: 100vw;
     padding-top: 8.4375rem;
   }
   
@@ -333,6 +337,7 @@ img {
   }
   /* halkan waxaa ka bilabmaya stylinka qeybta workinga */
   #work{
+    width: 100vwS;
     padding-top: 8.4375rem;
     margin-bottom: 7rem;
   }
@@ -343,7 +348,6 @@ img {
     flex-wrap: wrap;
     margin-right: -1rem;
     margin-left: -1rem;
-    
   }
   .work-content{
     display: flex;
@@ -493,8 +497,6 @@ img {
             margin-top: 10px;
          }
 
-
-
          /* inroducton section */
   
 
@@ -549,5 +551,5 @@ img {
           .work-images img{
              width: 100%;
           }
-
+        
 }
