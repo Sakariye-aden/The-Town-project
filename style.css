@@ -337,7 +337,7 @@ img {
   }
   /* halkan waxaa ka bilabmaya stylinka qeybta workinga */
   #work{
-    width: 100vwS;
+    width: 100vw;
     padding-top: 8.4375rem;
     margin-bottom: 7rem;
   }
@@ -383,6 +383,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+     flex-wrap: wrap;
     gap: 2rem;
   }
   .work-images img{
