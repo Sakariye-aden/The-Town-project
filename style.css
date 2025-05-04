@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+  *{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: "ROBOTO", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+#hero{
+    height: 100vh;
+    background:url('https://templatemo.com/templates/templatemo_525_the_town/img/the-town-bg-01.jpg') center/cover no-repeat;
+    background-attachment:fixed;
+}
+.logo{
+    color:#fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5625rem;
+}
+.logo:hover{
+    color: #3496d8;;
+}
+
+#nav{
+    width: 100%;
+    padding: 9px 18px;
+    height: 4.375rem;
+    position: sticky;
+    top: 0;
+    background-color:transparent;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    color: white;
+}
+
+
+/* When Scrolled - White Background */
+.scrolled {
+    background-color: white !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
+}
+.scrolled .logo{
+    color: #8f8f8f;
+}
+/* When Scrolled - Change Text Color */
+.scrolled ul li a {
+    color: #8f8f8f;
+}
+
+
+nav .container{
+    height: 3.375rem;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    padding-inline: 15px;
+}
+nav .nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+nav ul li a{
+      padding: 9px 30px;
+      color:#fff;
+      font-size: 1.40625rem;
+      font-weight: 400;
+      text-decoration: none;
+}
+nav ul li a:hover{
+    color: #3496d8;
+}
+/* menus icon */
+
+i{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0px 5px;
+}
+
+.menu{
+    display: none;
+}
+
+/* hero section */
+.Hero-content{
+    height: calc(100vh - 4.375rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-content h1{
+   color: #fff;
+   font-weight: 500;
+   font-size: 3.9375rem;
+   margin-bottom: 9px;
+   text-shadow: 2px 2px 2px #333;
+   text-align: center;
+}
+.Hero-content p{
+    color: #fff;
+    font-size: 1.40625rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    /* e08b76 */
+}
+.Hero-content .Hero-btn{
+    width: 86px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.Hero-content .Hero-btn i{
+    color: #e08b76;
+    font-size: 3.9rem; 
+    font-weight: 900;
+}
+.Hero-content .Hero-btn:hover{
+    background-color:#3496d8;
+}
+.Hero-content .Hero-btn:hover >i{
+    color: #fff;
+}
+
+
+
+
+/* contact section  */
+.contact{
+    height: 100%;
+    background: url('https://templatemo.com/templates/templatemo_525_the_town/img/the-town-bg-02.jpg') center/ cover no-repeat;
+    padding: 160px 0px 160px;
+    background-attachment: fixed;
+}
+
+.contact .container{
+    padding-inline: 62px;
+}
+.contact .content{
+    padding-bottom: 100px;
+    /* background-color: #4ada75; */
+}
+.contact .content h2{
+    color: #fff;
+    font-size: 2.925rem;
+    font-weight: 400;
+    line-height: 1.8;
+    border-bottom: 2px solid #fff;
+}
+.contact .content span{
+    display: block;
+     background-color: #fff;
+     width: 250px;
+     height: 6px;
+     margin-bottom: 50px;
+}
+.contact .content p{
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact  .part-1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px ;
+}
+
+.const i{
+    font-size: 3.375rem;
+}
+.const P{
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.const{
+    display: flex;
+    gap: 30px;
+}
+.const:hover i , .const:hover p{
+  color: #3496d8;
+  cursor: pointer;
+}
+.contact  .part-2{
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 0px;
+     margin-bottom: 30px;
+}
+.contact .part-2 input {
+    background-color: transparent;
+    padding: 10px 8px;
+    border: 1px solid #fff;
+    font-size: 1.125rem;
+}
+.contact .part-2 input::placeholder{
+    color: #fff;
+}
+.contact .part-2 button{
+    padding: 8px 32px;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-size: 1.125rem;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+}
+.contact .content #footer-p{
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+/* introduction and  work section  */
+
+
+
+
+img {
+    max-width: 100%;
+  }
+  /* ka shaqeynta qeynta introductionka */
+  .intro {
+    padding-top: 8.4375rem;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.2rem;
+    margin-inline: -1rem;
+  }
+  .town-image {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .right-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+  }
+  .right-content h2 {
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: #3496d8;
+    margin-bottom: 1.5rem;
+  }
+  .right-content p {
+    color: #989898;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .r-c-p1 {
+    margin-bottom: 1.5rem;
+  }
+  .r-c-p2 {
+    margin-bottom: 3rem !important;
+  }
+  .intro-btn {
+    font-size: 1.2rem;
+    background-color: #3496d8;
+    color: #fff;
+    padding: 0.8rem 2.2rem;
+    text-decoration: none;
+    border-radius: 1.9rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .intro-btn:hover {
+    background-color: rgba(52, 150, 216, 0.7);
+  }
+  /* qeybta dhexe ee icons-ku ku jiraa */
+  
+  .our-service{
+    padding-top: 8.4375rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+  }
+  .our-service-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tm-icon{
+    text-align: center;
+    color: #3496d8;
+    margin-bottom: 3.4375rem;
+    font-weight: 900;
+    font-size: 4rem;
+  }
+  .our-service h4{
+    text-align: center;
+    color: #3496d8;
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .our-service p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.9;
+    color: #989898;
+  }
+  /* halkan waxaa ka bilabmaya stylinka qeybta workinga */
+  #work{
+    padding-top: 8.4375rem;
+    margin-bottom: 7rem;
+  }
+  .row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    
+  }
+  .work-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .work-content h2{
+    font-size: 2.6rem;
+    font-weight: normal;
+    color: #3496d8;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .work-content-para{
+    max-width: 650px;
+    width: 100%;
+    font-size: .9rem;
+    margin-inline: auto !important;
+    line-height: 1.9;
+    margin-bottom: 1rem !important;
+    color: #989898;
+  }
+  .images{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .work-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .work-images img{
+    width:200px;
+    height: 200px;
+  }
+  
+
+
+
+
+
+
+@media screen and (max-width:780px){
+        
+                #nav {
+                   width: 100%;
+                    background: transparent; /* default on mobile */
+                    position: fixed;
+                    top: 0;
+                }
+                .scrolled {
+                    background-color: white ; 
+                    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
+                }
+                .scrolled .menu{
+                    border: 1px solid #8f8f8f;
+                }
+                .scrolled .menu i{
+                    color: #8f8f8f;
+                }
+    
+
+        nav .container{
+            height: 3.375rem;
+             flex-direction: column;
+             justify-content: center;
+             align-items: self-start;
+             gap: 10px;
+             position: relative;
+        }
+        nav .nav-list{
+            width: 100%;
+            flex-direction: column;
+            background-color: #fff;
+            padding: 10px;
+             align-items: flex-end;
+             justify-content: center;
+             border-radius: 3px;
+            margin-top: 3px;     
+            position: absolute;
+            top: 58px;
+        }
+        nav ul li a{
+            padding: 10px 0px;
+            display: block;
+            text-align: end;
+            color: #8f8f8f;
+        }
+
+        .nav-list[data-visible="false"]{
+            display: none;
+        }
+        .nav-list[data-visible="true"]{
+            display: block;
+    
+        }
+
+       
+         .menu{
+            display: block;
+            border: 1px solid #fff;
+            padding: 10px ;
+            border-radius: 5px;
+            position: absolute;
+            top: 5px;
+            right: 35px;
+         }
+         .menu:hover{
+            outline: 1px solid rgb(226, 226, 78);
+            outline-offset: -2px;
+         }
+
+         .menu i[data-visible="false"]{
+            display: none;
+         }
+         .menu i[data-visible="true"]{
+            display: true;
+         }
+
+         /* contact section */
+         .contact{
+            padding-bottom: 80px;
+         }
+
+         .contact .container{
+            padding-inline: 10px;
+        }
+         .contact  .part-1{
+            flex-direction: column;
+            gap: 20px;
+         }
+         .contact  .part-2{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+         }
+         .const {
+            gap: 10px;
+         }
+         .contact .part-2 button{
+            margin-top: 10px;
+         }
+
+
+
+         /* inroducton section */
+  
+
+         .row {
+            grid-template-columns: 1fr;
+            padding: 2.5rem;
+            gap: 2rem;
+          }
+          .right-content h2 {
+            margin-bottom: 0;
+          }
+          .r-c-p1,
+          .r-c-p2 {
+            margin-bottom: 0;
+          }
+          /* stylinka qeybta our serviceska ama iconsku ku jiran */
+          .our-service{
+            grid-template-columns: 1fr;
+          }
+          .our-service-left p{
+            text-align: left;
+            padding-left: 20px;
+            width: 100%;
+          }
+          /* hagaajinta ama stylinka paragraphka section-ka our work */
+          .work-content{
+            padding-inline: 20px;
+          }
+          .work-content-para{
+            width: 90%;
+            font-size: .9rem;
+            line-height: 1.9;
+            margin-bottom: 1rem !important;
+            color: #989898;
+          }
+          /* hagaajinta ama stylinka sawirada section-ka our work */
+          .images{
+            padding-top: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 3rem;
+          }
+          .work-images{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2rem;
+          
+          }
+          .work-images img{
+             width: 100%;
+          }
+
+}
